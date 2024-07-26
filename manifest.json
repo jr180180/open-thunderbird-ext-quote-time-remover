@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
   "name": "Quote Time Remover",
-  "description": "Removes time from quoted replies",
+  "description": "Removes time from the first quoted reply in compose windows",
   "version": "1.0",
-  "author": "Your Name",
+  "author": "jr180180",
   "applications": {
     "gecko": {
-      "id": "quotetimeremover@example.com",
+      "id": "quotetimeremover@passion.cafe",
       "strict_min_version": "68.0"
     }
   },
@@ -15,10 +15,11 @@
   },
   "compose_action": {
     "default_icon": "icon.png",
-    "default_title": "Remove Time from Quote"
+    "default_title": "Remove Time"
   },
   "background": {
     "scripts": ["background.js"]
   },
   "permissions": ["compose", "messagesRead"]
 }
+
