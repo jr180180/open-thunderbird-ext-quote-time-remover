@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Quote Time Remover",
+  "description": "Removes time from quoted replies",
+  "version": "1.0",
+  "author": "Your Name",
+  "applications": {
+    "gecko": {
+      "id": "quotetimeremover@example.com",
+      "strict_min_version": "68.0"
+    }
+  },
+  "icons": {
+    "64": "icon.png"
+  },
+  "compose_action": {
+    "default_icon": "icon.png",
+    "default_title": "Remove Time from Quote"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["compose", "messagesRead"]
+}
